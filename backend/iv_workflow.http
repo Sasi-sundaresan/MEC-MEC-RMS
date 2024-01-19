@@ -1,0 +1,145 @@
+###
+POST http://localhost:1234/iv/insert
+Content-Type: application/json
+
+{
+   "Details_of_the_industry_with_address":"hgfs"  ,
+   "Date_of_visit":"2004-10-10",
+   "Name": "Suresh",
+   "Designation_for_industryperson":"kjfk"  ,
+   "Mobile_No":989898 ,
+   "Mail_id": "lkklk@38",
+   "Name_of_the_Inn": "Software",
+   "Address_lodging_planned": "kfjgdk" ,
+   "Phone_no": 545445,
+   "No_of_Students_visited": 5 ,
+   "No_of_Faculty_visited": 5,
+   "Name_of_travels": "Dog",
+   "Registration_no_1":987,
+   "Registration_no_2":988,
+   "Registration_no_3":989,
+   "Name_of_the_operator_1": "Paris" ,
+   "Name_of_the_operator_2": "Parismathi" ,
+   "Name_of_the_operator_3": "mani" ,
+   "Operator_contact_no_1":  956565,
+   "Operator_contact_no_2":  956566,
+   "Operator_contact_no_3":  956567,
+   "Faculty_name": "dkkjf" ,
+    "designation" :"gdax",
+   "Faculty_Mobile_no":989899 ,
+   "undertaking_parents_collected_for_students":"jdfn" 
+}
+
+
+
+###
+###
+
+GET http://localhost:1234/iv/listAll
+
+###
+
+
+
+###
+# POST http://localhost:1234/iv/report
+# Content-Type: application/json
+
+# {
+#    "Date_of_visit": "2003-11-2",
+#    "year": 2005,
+#    "Total_class_strength":50  ,
+#    "No_of_students_visited":98 ,
+#    "s_no_industry_details":5,
+#    "Name_of_the_industry": "Software",
+#    "Industry_address": "kfjgdk" ,
+#    "Contact_person_industry": "Dubai",
+#    "Contact_number_industry": 5 ,
+#    "Name_of_the_industry2": "jvvh",
+#    "Industry_address2": "jhc" ,
+#    "Contact_person_industry2": "Dijhg",
+#    "Contact_number_industry2": 5234567 ,
+#    "Mode_of_transport":  "Off",
+#    "Name_of_the_travel": "Sundhara" ,
+#    "Address":"jaipur" ,
+#    "Contact_no":98989,
+#    "Name_of_the_travel2": "uijhf" ,
+#    "Address2":"jhc" ,
+#    "Contact_no2":456789,
+#    "iv_students_year":3,
+#    "Name_of_the_faculty_coordinator":"Srimathi",
+#    "place_of_visit":"Mysore",
+#    "No_of_students_visited_in_Iv":144,
+#    "No_of_accompanying_faculty":5,
+#    "Date_of_leaving":"2023-08-09",
+#    "Leaving_time":"8.45 pm",
+#    "Day_1_Reaching_time":"6.05 AM",
+#    "Day_1_FN_time":"11.45 to 2.30",
+#    "Day_1_FN_place":"gfdsxfchgbhj",
+#    "Day_1_AN_time":"6.10 to 7.10",
+#    "Day_1_AN_place":"sdfghj",
+#    "Day_1_night_time":"9.30 PM",
+#    "Day_1_night_place":"sdfghj",
+#    "Day_2_FN_time":"11.20 to 2.10 PM",
+#    "Day_2_FN_place":"cfvgbx",
+#    "Day_2_AN_time":"3.10 to 5.10 PM",
+#    "Day_2_AN_place":"dxgfvbkh",
+#    "Day_2_night_time":"8.22 AM",
+#    "Day_2_night_place":"sgdjhdg",
+#    "Date_of_Arriving":"2023-08-12",
+#    "Time_of_Arriving":"8.22 AM"
+# }
+
+
+
+###
+
+
+GET http://localhost:1234/iv/ivtour
+
+###
+
+###
+PUT http://localhost:1234/iv/update/1
+Content-Type: application/json
+
+{
+   "year_sem":"second",
+   "Total_class_strength":50,
+   "Name_of_the_industry": "Software",
+   "Industry_address": "kfjgdk",
+   "Contact_person_industry": "Dubai",
+   "Contact_number_industry": 5 ,
+   "Name_of_the_industry2": "jvvh",
+   "Industry_address2": "jhc",
+   "Contact_person_industry2": "Dijhg",
+   "Contact_number_industry2": 5234567 ,
+   "Mode_of_transport":  "Off",
+   "Name_of_the_travel": "Sundhara" ,
+   "Address":"jaipur" ,
+   "Contact_no":98989,
+   "Name_of_the_travel2": "uijhf" ,
+   "Address2":"jhc" ,
+   "Contact_no2":456789,
+   "Name_of_the_faculty_coordinator":"Srimathi",
+   "place_of_visit":"Mysore",
+   "Date_of_leaving":"2023-08-09",
+   "Leaving_time":"8.45 pm",
+   "Day_1_Reaching_time":"6.05 AM",
+   "Day_1_FN_time":"11.45 to 2.30",
+   "Day_1_FN_place":"gfdsxfchgbhj",
+   "Day_1_AN_time":"6.10 to 7.10",
+   "Day_1_AN_place":"sdfghj",
+   "Day_1_night_time":"9.30 PM",
+   "Day_1_night_place":"sdfghj",
+   "Day_2_FN_time":"11.20 to 2.10 PM",
+   "Day_2_FN_place":"cfvgbx",
+   "Day_2_AN_time":"3.10 to 5.10 PM",
+   "Day_2_AN_place":"dxgfvbkh",
+   "Day_2_night_time":"8.22 AM",
+   "Day_2_night_place":"sgdjhdg",
+   "Date_of_Arriving":"2023-08-12",
+   "Time_of_Arriving":"8.22 AM"
+}
+
+###

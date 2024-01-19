@@ -2,6 +2,7 @@ import { Container, Nav, Navbar } from "react-bootstrap"
 import { useEffect, useState } from "react"
 import { approveLevel1, loadForLevel1 ,onTable} from "./connect"
 import './sty.css';
+import './responsive.css'
 import axios from 'axios'
 import jsPDF from 'jspdf';
 import Image from './logo.png';

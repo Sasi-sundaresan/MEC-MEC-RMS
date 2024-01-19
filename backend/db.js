@@ -6,6 +6,7 @@ const db = mysql.createConnection({
     "password":"",
     "database":"mec_report_management"
 })
+// localhost
 
 db.connect(()=>{
     console.log("Database connected")

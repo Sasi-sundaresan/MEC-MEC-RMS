@@ -64,6 +64,7 @@ try{
 }
  
 }
+console.log(finalArr)
 
   const [selectedOptions, setSelectedOptions] = useState([]);
   const [option, setOptions] = useState([]);

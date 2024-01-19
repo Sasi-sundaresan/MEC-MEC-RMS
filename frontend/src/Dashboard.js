@@ -11,6 +11,9 @@ import PDFGenerator from "./pdfGenerator"
 import SeSTAadd from "./Sesta/SestaAdd"
 import SeSTAbuttons from "./Sesta/SestaButtons"
 import { Intership, NptelCertification, OnlineCertification, StudentTechTalks, StudentsParticipation, ValueAdded } from "./Sesta/SestaFacultyView"
+import Iv from "./iv/iv_proposal"
+import Addmenu, { Infos } from "./iv/addiv"
+import Iv_report from "./iv/iv_report"
 
 
 
@@ -68,7 +71,15 @@ export const Dashboard=()=>{
                             <Route path="/intership" element={<Intership/>}/>
                             <Route path="/valueadded" element={<ValueAdded/>}/>
                             <Route path="/studenttechtalk" element={<StudentTechTalks/>}/>
+
+
+                            {/* <Route path="/iv" element={<Addmenu/>}/> */}
+                            <Route path="/iv" element={<Infos/>}/>
+                            <Route path="/ivproposal" element={<Iv/>}/>
+                            <Route path="/iv_report" element={<Iv_report/>}/>
+                            
                         </Routes>
+                        
                     </BrowserRouter>
                 </>
             }

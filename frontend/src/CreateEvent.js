@@ -25,12 +25,12 @@ export const CreateEvent=()=>{
     // alert(JSON.stringify(currAcd.acd_yr_id))
 },[])
 const[allvalues,setAllvalues]=useState([]);
-
       const doSomething = async() =>{
         const res=await Table()
           setAllvalues(res.data)
         }
         // console.log(allvalues)
+
         // useEffect(() =>{
          
         // },[])

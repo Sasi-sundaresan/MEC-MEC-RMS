@@ -4,7 +4,7 @@ export const FacultyMenu=()=>{
     const logged=JSON.parse(sessionStorage.getItem("person"))
     return(
         <>
-               <head>
+               <head style={{position:"fixed",top:"0px"}}>
                <img src=
 "https://mec.edu.in/wp-content/uploads/2021/02/main-logo.png"
              class="icn menuicn"
